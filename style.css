@@ -12,7 +12,6 @@ body {
   padding-top: 70px;
 }
 
-/* Navbar */
 .navbar {
   position: fixed;
   top: 0;
@@ -41,20 +40,22 @@ body {
   color: white;
 }
 
-/* Home Section */
+/* Hero Section */
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 30px;
   padding: 60px 20px;
+  gap: 30px;
 }
 
 .left-section,
 .right-section {
-  flex: 1;
-  min-width: 280px;
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -67,7 +68,7 @@ body {
 
 .intro-box {
   background: rgba(102, 204, 255, 0.1);
-  padding: 20px;
+  padding: 20px 30px;
   border-radius: 12px;
   border: 2px solid #66ccff;
   box-shadow: 0 0 12px rgba(102, 204, 255, 0.4);
@@ -75,7 +76,7 @@ body {
 }
 
 .intro-title {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -85,7 +86,7 @@ body {
 }
 
 #changing-text {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: #9cdfff;
   animation: fadeIn 1s ease-in-out infinite alternate;
 }
@@ -188,7 +189,6 @@ body {
 @media screen and (max-width: 768px) {
   .container {
     flex-direction: column;
-    text-align: center;
   }
 
   .navbar ul {
@@ -197,7 +197,7 @@ body {
   }
 
   .intro-title {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   #changing-text {
