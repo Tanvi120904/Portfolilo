@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tanvi Khicchi | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home -->
+  <section id="home" class="container">
+    <div class="left-section" data-aos="fade-right">
+      <img src="images/your-photo.jpeg" alt="Tanvi's Photo" class="profile-pic" />
+    </div>
+    <div class="right-section" data-aos="fade-left">
+      <div class="intro-box">
+        <h1 class="intro-title">Hi, I'm <span class="highlight">Tanvi Khicchi</span></h1>
+        <h2><span id="changing-text"></span></h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section" data-aos="fade-up">
+    <h2 class="section-title">About Me</h2>
+    <p>
+      I'm an IT student at Don Bosco Institute of Technology (2023–2027). I'm passionate about full-stack development and enjoy solving real-world problems through code.
+      <br><br>
+      My experience includes building HopePlates (food-sharing web app), V-Navigation (indoor navigation app), and a hotel reservation system. I work with React, Flutter, PostgreSQL, and more — always learning and building.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section" data-aos="fade-up">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>HopePlates</h3>
+        <p>A web platform to share surplus food with people in need.</p>
+        <a href="#">View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>V-Navigation</h3>
+        <p>Indoor navigation mobile app built using Flutter & sensors.</p>
+        <a href="#">View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>Hotel Reservation System</h3>
+        <p>Full-stack Java & MySQL-based hotel booking system.</p>
+        <a href="#">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section" data-aos="fade-up">
+    <h2 class="section-title">Tech Stack</h2>
+    <div class="skills-grid">
+      <img src="images/flutter.png" alt="Flutter" />
+      <img src="images/git.png" alt="Git" />
+      <img src="images/github.png" alt="GitHub" />
+      <img src="images/java.png" alt="Java" />
+      <img src="images/javascript.png" alt="JavaScript" />
+      <img src="images/mysql.png" alt="MySQL" />
+      <img src="images/postgresql.png" alt="PostgreSQL" />
+      <img src="images/python.png" alt="Python" />
+      <img src="images/react.png" alt="React" />
+      <img src="images/sqlite.png" alt="SQLite" />
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section" data-aos="fade-up">
+    <h2 class="section-title">Contact</h2>
+    <p>Let’s connect and build something cool!</p>
+    <div class="links">
+      <a href="https://www.linkedin.com/in/tanvikhicchi/" target="_blank">
+        <img src="images/linkedin.png" alt="LinkedIn" class="icon" /> LinkedIn
+      </a>
+      <a href="https://github.com/Tanvi120904" target="_blank">
+        <img src="images/github.png" alt="GitHub" class="icon" /> GitHub
+      </a>
+      <a href="mailto:tanvikhicchi@gmail.com">
+        <img src="images/git.png" alt="Email" class="icon" /> Email
+      </a>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+
+</html>
