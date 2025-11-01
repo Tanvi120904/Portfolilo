@@ -1,6 +1,6 @@
 # 🌐 Tanvi Khicchi's Portfolio
 
-🔗 **Live Portfolio:** [https://tanvikhicchi.netlify.app](https://tanvi120904.github.io/Portfolilo/)
+🔗 **Live Portfolio:** (https://tanvi120904.github.io/Portfolilo/)
 
 ---
 
