@@ -48,7 +48,7 @@ B.E. Information Technology, Don Bosco Institute of Technology
 ## 📬 Contact
 
 If you'd like to collaborate or provide feedback:
-**📧 Email:** [tanvikhicchi@example.com](mailto:tanvikhicchi@gmail.com) 
+**📧 Email:** (mailto:tanvikhicchi@gmail.com) 
 
 ---
 
