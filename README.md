@@ -6,7 +6,7 @@
 
 ## 🧠 About the Project
 
-This is my **personal portfolio website** built using **HTML, CSS, and JavaScript**, designed to showcase my projects, skills, and journey as a tech enthusiast and developer. The website follows a **minimal orange-accented theme** and is fully **responsive** for all screen sizes.
+This is my **personal portfolio website** built using **HTML, CSS, and JavaScript**, designed to showcase my projects, skills, and journey as a tech enthusiast and developer. The website follows a **minimal blue-accented theme** and is fully **responsive** for all screen sizes.
 
 ---
 
